@@ -1,0 +1,8 @@
+# Define el estilo de final de línea para archivos específicos.
+*.js eol=lf
+*.json eol=lf
+*.html eol=lf
+*.css eol=lf
+
+# También puedes configurar estilos de final de línea para todos los archivos en el repositorio.
+* text eol=lf

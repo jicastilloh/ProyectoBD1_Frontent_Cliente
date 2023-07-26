@@ -2,8 +2,9 @@
   "name": "proyectobd",
   "version": "1.0.0",
   "description": "Proyecto para crear app con Electron",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jicastilloh/ProyectoBD1/issues"
   },
-  "homepage": "https://github.com/jicastilloh/ProyectoBD1#readme"
+  "homepage": "https://github.com/jicastilloh/ProyectoBD1#readme",
+  "devDependencies": {
+    "electron": "^25.3.1"
+  }
 }
