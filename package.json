@@ -1,0 +1,19 @@
+{
+  "name": "proyectobd",
+  "version": "1.0.0",
+  "description": "Proyecto para crear app con Electron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jicastilloh/ProyectoBD1.git"
+  },
+  "author": "JCastillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jicastilloh/ProyectoBD1/issues"
+  },
+  "homepage": "https://github.com/jicastilloh/ProyectoBD1#readme"
+}
