@@ -40,6 +40,14 @@ Because the main and renderer processes have very different responsibilities, El
 In the next part of the tutorial, we will be showing you resources on adding more functionality to your app, then teaching you distributing your app to users.
 */
 
+/**
+Electron Forge
+RESUMEN
+Electron applications need to be packaged to be distributed to users. In this tutorial, you imported your app into Electron Forge and configured it to package your app and generate installers.
+
+In order for your application to be trusted by the user's system, you need to digitally certify that the distributable is authentic and untampered by code signing it. Your app can be signed through Forge once you configure it to use your code signing certificate information.
+*/
+
 const { app, BrowserWindow, ipcMain } = require('electron')
 const path = require('path')
 
