@@ -2,7 +2,7 @@
   "name": "proyectobd",
   "version": "1.0.0",
   "description": "Proyecto para crear app con Electron",
-  "main": "main.js",
+  "main": "./js/main.js",
   "scripts": {
     "start": "electron-forge start",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -29,6 +29,7 @@
     "electron": "^25.3.1"
   },
   "dependencies": {
+    "bootstrap": "^5.3.1",
     "electron-squirrel-startup": "^1.0.0"
   }
 }
