@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(112, 210, 237);
+}
+
+.form-styles{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: white;
+}
+
+.form-styles form{
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+    background-color: aliceblue;
+    border: 1px solid rgb(112, 210, 237);
+}
+
+.navbar-styles{
+    background-color: rgb(112, 210, 237);
+}
