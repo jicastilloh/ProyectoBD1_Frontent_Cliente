@@ -19,17 +19,17 @@
 
     <div class="container-fluid navbar-styles">
       <div class="row">
-        <div class="col-1 d-flex justify-content-center">
-          <p class="m-3 p-1">LOGO</p>
+        <div class="col-3 d-flex justify-content-center">
+            <p class="m-3 p-1">LOGO</p>
         </div>
-        <div class="col-8 d-flex justify-content-center">
-          <button class="btn bg-white m-3" type="submit">Reservar</button>
-          <button class="btn bg-white m-3" type="submit">Flota</button>
-          <button class="btn bg-white m-3" type="submit">Localidades</button>
+        <div class="col-6 d-flex justify-content-center">
+          <button class="btn btn-options-styles m-3" type="submit">Reservar</button>
+          <button class="btn btn-options-styles m-3" type="submit">Flota</button>
+          <button class="btn btn-options-styles m-3" type="submit">Localidades</button>
         </div>
         <div class="col-3 d-flex justify-content-center">
-          <button class="btn btn-primary m-3" type="submit">Crear Cuenta</button>
-          <button class="btn btn-outline-primary m-3" type="submit">Iniciar Sesión</button>
+          <button class="btn m-3 sign_in-styles" type="submit">Crear Cuenta</button>
+          <button class="btn m-3 log_in-styles" type="submit">Iniciar Sesión</button>
         </div>
       </div>
     </div>
@@ -46,34 +46,42 @@
             <div class="row">
               <div class="col-6">
                 <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  <label for="lugarRecogidaInput" class="form-label">Lugar de Recogida</label>
+                  <select class="form-control" name="lugarRecogidaInput" id="">
+                    <option value="Tegucigalpa">Tegucigalpa</option>
+                    <option value="Comayaguela">Comayaguela</option>
+                    <option value="Choluteca">Choluteca</option>
+                  </select>
                 </div>
               </div>
               <div class="col-6">
                 <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  <label for="lugarEntregaInput" class="form-label">Lugar de Entrega</label>
+                  <select class="form-control" name="lugarEntregaInput" id="">
+                    <option value="Tegucigalpa">Tegucigalpa</option>
+                    <option value="Comayaguela">Comayaguela</option>
+                    <option value="Choluteca">Choluteca</option>
+                  </select>
                 </div>   
               </div>
             </div>
             <div class="row">
               <div class="col-6">
                 <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  <label for="fechaAlquilerInput" class="form-label">Fecha de alquiler</label>
+                  <input type="date" class="form-control" id="fechaAlquilerInput" placeholder="Seleccione la fecha">
                 </div>
               </div>
               <div class="col-3">
                 <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  <label for="horaRecogidaInput" class="form-label">Hora de Recogida</label>
+                  <input type="time" min="07:00" max="17:00" value="12:00" class="form-control" id="horaRecogidaInput" placeholder="Seleccione la hora">
                 </div>
               </div>
               <div class="col-3">
                 <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  <label for="horaEntregaInput" class="form-label">Hora de Entrega</label>
+                  <input type="time" min="07:00" max="17:00" value="12:00" class="form-control" id="horaEntregaInput" placeholder="Seleccione la hora">
                 </div>
               </div>
             </div>
