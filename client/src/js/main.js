@@ -60,7 +60,7 @@ const createWindow = () => {
     }
   })
 
-  win.loadFile('./src/index.html')
+  win.loadFile('./client/src/index.html')
 }
 
 app.whenReady().then(() => {
