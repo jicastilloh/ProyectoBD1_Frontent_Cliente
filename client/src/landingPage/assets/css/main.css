@@ -1470,6 +1470,7 @@ input, select, textarea {
 	form select,
 	form textarea {
 		-webkit-appearance: none;
+		appearance: none;
 		border: 0;
 		background: #f4f4f4;
 		padding: 0.75em;
@@ -1587,6 +1588,7 @@ input, select, textarea {
 		-ms-transition: background-color .25s ease-in-out;
 		transition: background-color .25s ease-in-out;
 		-webkit-appearance: none;
+		appearance: none;
 		display: inline-block;
 		background-color: #222222;
 		color: #ffffff;
@@ -2213,5 +2215,5 @@ input, select, textarea {
 }
 
 body{
-	background-color: #EA8267 !important;
+	background-color: rgba(159, 52, 30, 0.4) !important;
 }
