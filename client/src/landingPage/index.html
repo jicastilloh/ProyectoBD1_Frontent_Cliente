@@ -36,7 +36,8 @@
             <h1>GearShift Rentals</h1>
             <div class="input-group mb-3">
               <span class="input-group-text" id="inputGroup-user">Usuario</span>
-              <input id="username"
+              <input
+                id="username"
                 type="text"
                 class="form-control"
                 aria-label="Sizing example input"
@@ -47,14 +48,17 @@
               <span class="input-group-text" id="inputGroup-pass"
                 >Contraseña</span
               >
-              <input id="password"
+              <input
+                id="password"
                 type="text"
                 class="form-control"
                 aria-label="Sizing example input"
                 aria-describedby="inputGroup-pass"
               />
             </div>
-			<button id="btnInicio" class="btn btn-success" type="button">Aceptar</button>
+            <button id="btnInicio" class="btn btn-success" type="button">
+              Aceptar
+            </button>
           </header>
           <img src="images/img1.jpg" alt="" />
         </article>
@@ -75,7 +79,8 @@
                         <span class="input-group-text" id="inputGroup-name"
                           >Nombre</span
                         >
-                        <input
+                        <input 
+                          id="nombreNuevoUser"
                           type="text"
                           class="form-control"
                           aria-label="Sizing example input"
@@ -86,7 +91,8 @@
                         <span class="input-group-text" id="inputGroup-lastN"
                           >Apellido</span
                         >
-                        <input
+                        <input 
+                          id="apellidoNuevoUser"
                           type="text"
                           class="form-control"
                           aria-label="Sizing example input"
@@ -97,11 +103,24 @@
                         <span class="input-group-text" id="inputGroup-identidad"
                           >No. Identidad</span
                         >
-                        <input
+                        <input 
+                          id="DNINuevoUser"
                           type="text"
                           class="form-control"
                           aria-label="Sizing example input"
                           aria-describedby="inputGroup-identidad"
+                        />
+                      </div>
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" id="inputGroup-tel"
+                          >Dirección</span
+                        >
+                        <input
+                          id="dirNuevoUser"
+                          type="text"
+                          class="form-control"
+                          aria-label="Sizing example input"
+                          aria-describedby="inputGroup-tel"
                         />
                       </div>
                     </div>
@@ -110,7 +129,8 @@
                         <span class="input-group-text" id="inputGroup-conducir"
                           >Licencia de Conducir</span
                         >
-                        <input
+                        <input 
+                          id="licenciaNuevoUser"
                           type="text"
                           class="form-control"
                           aria-label="Sizing example input"
@@ -121,81 +141,24 @@
                         <span class="input-group-text" id="inputGroup-tel"
                           >Teléfono</span
                         >
-                        <input
+                        <input 
+                          id="telNuevoUser"
                           type="text"
                           class="form-control"
                           aria-label="Sizing example input"
                           aria-describedby="inputGroup-tel"
                         />
                       </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <hr />
-              <div class="row">
-                <div class="col">
-                  <h3>Tarjeta de Crédito</h3>
-                  <div class="row">
-                    <div class="col-6">
                       <div class="input-group mb-3">
-                        <span class="input-group-text" id="inputGroup-tipoT"
-                          >Tipo Tarjeta</span
-                        >
-                        <select
-                          class="form-select"
-                          name=""
-                          id=""
-                          aria-describedby="inputGroup-tipoT"
-                        >
-                          <option value="">Tipo 1</option>
-                          <option value="">Tipo 2</option>
-                        </select>
-                      </div>
-                      <div class="input-group mb-3">
-                        <span class="input-group-text" id="inputGroup-numT"
-                          >Número de Tarjeta</span
+                        <span class="input-group-text" id="inputGroup-tel"
+                          >Email</span
                         >
                         <input
+                          id="emailNuevoUser"
                           type="text"
                           class="form-control"
                           aria-label="Sizing example input"
-                          aria-describedby="inputGroup-numT"
-                        />
-                      </div>
-                      <div class="input-group mb-3">
-                        <span class="input-group-text" id="inputGroup-cvv"
-                          >CVV</span
-                        >
-                        <input
-                          type="text"
-                          class="form-control"
-                          aria-label="Sizing example input"
-                          aria-describedby="inputGroup-cvv"
-                        />
-                      </div>
-                    </div>
-                    <div class="col-6">
-                      <div class="input-group mb-3">
-                        <span class="input-group-text" id="inputGroup-fechaE"
-                          >Fecha de Emisión</span
-                        >
-                        <input
-                          type="date"
-                          class="form-control"
-                          aria-label="Sizing example input"
-                          aria-describedby="inputGroup-fechaE"
-                        />
-                      </div>
-                      <div class="input-group mb-3">
-                        <span class="input-group-text" id="inputGroup-fechaV"
-                          >Fecha de Vencimiento</span
-                        >
-                        <input
-                          type="date"
-                          class="form-control"
-                          aria-label="Sizing example input"
-                          aria-describedby="inputGroup-fechaV"
+                          aria-describedby="inputGroup-tel"
                         />
                       </div>
                     </div>
@@ -210,9 +173,10 @@
                     <div class="col-6">
                       <div class="input-group mb-3">
                         <span class="input-group-text" id="inputGroup-email"
-                          >Email</span
+                          >Usuario</span
                         >
-                        <input
+                        <input 
+                          id="userNuevoUser"
                           type="text"
                           class="form-control"
                           aria-label="Sizing example input"
@@ -225,8 +189,9 @@
                         <span class="input-group-text" id="inputGroup-pass"
                           >Contraseña</span
                         >
-                        <input
-                          type="text"
+                        <input 
+                          id="passNuevoUser"
+                          type="password"
                           class="form-control"
                           aria-label="Sizing example input"
                           aria-describedby="inputGroup-pass"
@@ -235,6 +200,10 @@
                     </div>
                   </div>
                 </div>
+              </div>
+              <hr />
+              <div class="row">
+                <button type="button" id="crearUser" class="btn btn-success">Finalizar</button>
               </div>
             </div>
           </form>
